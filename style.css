@@ -32,7 +32,7 @@
 /* Headline */
 .headline-container {
   /* border: 1px solid red; */
-  background-image: url(assets/header-shapes\ mobile@2x.svg);
+  background-image: url(assets/header-shapes-mobile@2x.svg);
   font-family: 'Poppins', sans-serif;
   padding: 114px 24px 12px 24px;
 }
@@ -56,7 +56,6 @@
 }
 
 .headline-socialmedia-text {
-  /* border:1px solid red; */
   color: #7f8cff;
   font-weight: 500;
   line-height: 24px;
