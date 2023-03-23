@@ -88,7 +88,7 @@
 
 /* CSS Grid Card Container Styling */
 
-#works .CSS-grid__card-container {
+.CSS-grid__card-container {
   background: #e5e5e5;
 
   /* Works */
@@ -109,7 +109,7 @@
 
 /* CSS Flex card Styling */
 
-#works .CSS-grid__card-container .Card-works {
+.CSS-grid__card-container .Card-works {
   /* Card Works */
 
   box-sizing: border-box;
