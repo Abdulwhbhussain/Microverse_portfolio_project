@@ -19,10 +19,6 @@
   margin: 44px auto;
 }
 
-.toolbar-name-container a {
-  text-decoration: none;
-}
-
 .toolbar-name {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -30,6 +26,10 @@
   line-height: 20px;
   letter-spacing: 0;
   text-align: center;
+}
+
+.toolbar-name a {
+  text-decoration: none;
   color: var(--main-purple-color);
 }
 
