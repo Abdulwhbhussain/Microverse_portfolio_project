@@ -31,10 +31,21 @@
 
 /* Headline */
 .headline-container {
-  /* border: 1px solid red; */
   background-image: url(assets/header-shapes-mobile@2x.svg);
   font-family: 'Poppins', sans-serif;
-  padding: 114px 24px 12px 24px;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
 }
 
 .headline-text1 {
