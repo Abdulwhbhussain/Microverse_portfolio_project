@@ -29,6 +29,11 @@
   color: var(--main-purple-color);
 }
 
+.toolbar-name a {
+  text-decoration: none;
+  color: var(--main-purple-color);
+}
+
 /* Headline */
 .headline-container {
   background-image: url(assets/header-shapes-mobile@2x.svg);
