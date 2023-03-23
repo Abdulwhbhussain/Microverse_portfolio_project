@@ -84,3 +84,676 @@
 .headline-socialmedia-icons-container img {
   margin: 1px 20px 1px 0;
 }
+
+/* CSS Grid Card Container Styling */
+
+#works .CSS-grid__card-container {
+  background: #E5E5E5;
+
+  /* Works */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 114px 24px;
+gap: 88px;
+
+position: relative;
+width: 375px;
+height: 2788px;
+left: 0px;
+top: 718px;
+}
+
+/* CSS Flex card Styling */
+
+#works .CSS-grid__card-container .Card-works {
+  /* Card Works */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 12px;
+
+width: 327px;
+height: 552px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+/* Neutrals/N40 */
+
+border: 1px solid #DFE1E6;
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Inside the Flex Card Snapshoot container */
+
+.snapshoot-container {
+  /* Snapshoot Portfolio */
+
+
+width: 295px;
+height: 220px;
+
+
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Left Block in Flex Card */
+
+.left-block {
+  /* Left Block */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 288px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Primary text inside the Flex Card */
+
+.primary-text {
+  /* Primary Text */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 295px;
+height: 80px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.project-title {
+  /* Project Title */
+
+
+width: 295px;
+height: 36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Frame 2 under the Project title */
+
+.frame-2 {
+  /* Frame 2 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 236px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Client in Frame 2 */
+
+.client {
+  /* Client */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px;
+
+width: 55px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Client Text in client Frame 2 */
+
+.client-text {
+  /* Text */
+
+
+width: 55px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+
+/* Neutrals/N600 */
+
+color: #344563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Counter Container in Frame 2 */
+
+.counter {
+  /* Counter */
+
+
+width: 8px;
+height: 8px;
+
+/* Neutrals/N50 */
+
+background: #C1C7D0;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Role in Frame 2 */
+
+.role {
+  /* Role */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px;
+
+width: 88px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/* Role Text in Role Frame 2 */
+
+.role-text {
+  /* Text */
+
+
+width: 88px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+
+/* Neutrals/N100 */
+
+color: #7A869A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.year-label {
+  /* Year Label */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px;
+
+width: 29px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+.year-text {
+  /* Text */
+
+
+width: 29px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+
+/* Neutrals/N100 */
+
+color: #7A869A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Text After The Frame 2 */
+
+.text-after-Frame2 {
+  /* Primary Text */
+
+
+width: 295px;
+height: 76px;
+
+/* Body / 3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+
+/* Neutrals/N600 */
+
+color: #344563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Tags After The Primary Text and Text */
+
+.tags {
+  /* Tags */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 214px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/* tag in tags */
+
+.tag-html {
+  /* Tag */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 57px;
+height: 24px;
+
+/* Primary/B50 */
+
+background: #EBEBFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Tag Text styling and boxing */
+
+.tag-text-html {
+  /* HTML */
+
+
+width: 33px;
+height: 16px;
+
+/* Button / Small */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* tag CSS */
+
+.tag-css {
+  /* Tag */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 49px;
+height: 24px;
+
+/* Primary/B50 */
+
+background: #EBEBFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* tag Text Css */
+
+.tag-text-css {
+  /* CSS */
+
+
+width: 25px;
+height: 16px;
+
+/* Button / Small */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* JavaScript Tag */
+
+.tag-js {
+  /* Tag */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 12px;
+
+width: 92px;
+height: 24px;
+
+/* Primary/B50 */
+
+background: #EBEBFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.tag-text-js {
+  /* JavaScript */
+
+
+width: 68px;
+height: 16px;
+
+/* Button / Small */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Action Button Container */
+
+.action-container {
+  /* Action */
+
+
+width: 295px;
+height: 72px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+/* Normal Project Button in Container */
+
+.normal-button {
+  /* Normal Button/Secondary/Enabled */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
+position: relative;
+width: 126px;
+height: 48px;
+left: 0px;
+top: calc(50% - 48px/2);
+
+/* Primary/B400 */
+
+border: 1px solid #6070FF;
+border-radius: 8px;
+}
+
+/* Project Action Text */
+
+.project-text {
+  /* See project */
+
+
+width: 102px;
+height: 24px;
+
+/* Button /Normal */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Primary/B500 */
+
+color: #396DF2;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
