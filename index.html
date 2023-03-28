@@ -344,6 +344,62 @@
         </div>
     </section>
 
+    <!-- Form -->
+    <section id="contact-form" class="form-container">
+        <div class="form-content-container">
+            <!-- Form header -->
+        <div class="form-header-container">
+            <h2 class="form-header">Contact me</h2>
+        </div>
+
+        <!-- Form description -->
+        <div class="form-description-container">
+            <p class="form-description">
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d love
+              to help with it!
+            </p>
+        </div>
+
+        <!-- Form itself -->
+        <form action="https://formspree.io/f/xbjezrbe"
+        method="POST">
+        <!-- Name -->
+        <input
+        name="user_name"
+        type="text"
+        class="form-element"
+        placeholder="Enter your Name"
+        maxlength="30"
+        required />
+        <!-- Email -->
+        <input
+        name="user_email"
+        type="email"
+        class="form-element"
+        placeholder="Enter your Email"
+        required />
+        <!-- Message -->
+        <textarea
+        name="user_message"
+        cols="30"
+        rows="10"
+        placeholder="Write your Message here..."
+        maxlength="500"
+        required></textarea>
+
+        <button type="submit" id="submit-btn">Get in touch</button>
+    
+    </form>
+
+        <!-- line -->
+        <div class="black-line-container">
+            <img src="assets/black-line.png" alt="black line" />
+          </div>
+
+        </div>
+    </section>
+
     </div>
     
 </body>
