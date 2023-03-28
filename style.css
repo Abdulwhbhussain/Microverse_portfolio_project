@@ -8,6 +8,15 @@
 
 :root {
   --main-purple-color: #6070ff;
+  --secondary-color: #344563;
+  --font-heavy-purple-color: #172b4d;
+  --light-grey-color: #7a869a;
+  --very-light-purple-color: #ebebff;
+  --font-family-common: "Poppins";
+}
+
+.template-1 {
+  position: relative;
 }
 
 /* Toolbar */
@@ -45,7 +54,7 @@
   align-items: flex-start;
   padding: 114px 24px;
   gap: 12px;
-  position: absolute;
+  position: relative;
   width: 375px;
   height: 604px;
   left: calc(50% - 375px / 2);
@@ -96,7 +105,7 @@
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   align-items: center;
   padding: 114px 24px;
   gap: 88px;
@@ -104,7 +113,7 @@
   width: 375px;
   height: 2788px;
   left: 0;
-  top: 718px;
+  top: 100px;
 }
 
 /* CSS Flex card Styling */
@@ -719,11 +728,11 @@
   align-items: center;
   padding: 114px 24px;
   gap: 24px;
-  position: absolute;
+  position: relative;
   width: 375px;
   height: 1062.15px;
   left: calc(50% - 375px / 2);
-  top: 3506px;
+  top: 0px;
 }
 
 .top {
@@ -1067,14 +1076,6 @@ ul {
 }
 
 /* Form */
-:root {
-  --main-purple-color: #6070ff;
-  --secondary-color: #344563;
-  --font-heavey-pruple-color: #172b4d;
-  --light-grey-color: #7a869a;
-  --very-light-puple-color: #ebebff;
-  --font-family-common: "Poppins";
-}
 
 .form-container {
   border: 1px solid transparent;
@@ -1083,8 +1084,8 @@ ul {
   background-image: url(assets/contact-form-shapes-mobile.svg);
   background-position: right top;
   background-repeat: no-repeat;
-  position: absolute;
-  bottom:0;
+  position: relative;
+  top:0px;
 }
 
 .form-content-container {
@@ -1111,7 +1112,7 @@ ul {
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
-  color: var(--very-light-puple-color);
+  color: var(--very-light-purple-color);
   margin-top: 12px;
   margin-bottom: 52px;
 }
