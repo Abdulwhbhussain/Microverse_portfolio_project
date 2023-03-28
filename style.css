@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,6 @@
 
 :root {
   --main-purple-color: #6070ff;
-  --font-family-common: 'Poppins';
 }
 
 /* Toolbar */
@@ -25,7 +24,7 @@
 }
 
 .toolbar-name {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -37,7 +36,7 @@
 /* Headline */
 .headline-container {
   background-image: url(assets/header-shapes-mobile@2x.svg);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   /* Auto layout */
 
@@ -1067,12 +1066,113 @@ ul {
   list-style-type: none;
 }
 
+/* Form */
+:root {
+  --main-purple-color: #6070ff;
+  --secondary-color: #344563;
+  --font-heavey-pruple-color: #172b4d;
+  --light-grey-color: #7a869a;
+  --very-light-puple-color: #ebebff;
+  --font-family-common: "Poppins";
+}
+
 .form-container {
-  border: 3px solid red;
+  border: 1px solid transparent;
   background: var(--main-purple-color);
   border-radius: 100px 0 0 0;
   background-image: url(assets/contact-form-shapes-mobile.svg);
   background-position: right top;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
+  bottom:0;
+}
+
+.form-content-container {
+  /* border: 3px solid blue; */
+  margin: 103px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.form-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--very-light-puple-color);
+  margin-top: 12px;
+  margin-bottom: 52px;
+}
+
+form {
+  /* border: 1px solid orange; */
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-element,
+textarea {
+  border: 1px solid #cfd8dc;
+  color: var(--font-heavey-pruple-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 15px 16px;
+  border-radius: 8px;
+  outline: none;
+}
+
+textarea {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#submit-btn {
+  /* border: 1px solid red; */
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-purple-color);
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: 50%;
+  border: none;
+}
+
+.black-line-container {
+  position: absolute;
+  bottom: 8px;
+  left: 120px;
+}
+
+/* Pseduo Classes btns */
+.card-info-link-container button:hover,
+#submit-btn:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.card-info-link-container button:active,
+#submit-btn:active {
+  color: #fff;
+  background-color: #2230d2;
 }
