@@ -1142,6 +1142,9 @@ textarea {
 textarea {
   font-size: 15px;
   line-height: 24px;
+  height: 145px;
+  overflow: hidden;
+  resize: none;
 }
 
 #submit-btn {
