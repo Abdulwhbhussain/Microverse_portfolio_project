@@ -87,8 +87,9 @@ My First Project at Microverse with Html and CSS to create Portfolio website to 
 
 ### Key Features <a name="key-features"></a>
 
-### Added index.html file
-### Added style.css file
+- **Using linters**
+- **Mobile First and Responsive**
+- **Layout with Flexbox & Grid**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,6 +170,12 @@ To run the project, execute the following command:
 - Twitter: [@twitterhandle](https://twitter.com/AbdulWhbHussain)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulwhbhussain)
 
+👤 **Amin Alizadeh**
+
+- GitHub: [@M-AminAlizadeh](https://github.com/M-AminAlizadeh)
+- Twitter: [@AMINALI69393891](https://twitter.com/AMINALI69393891)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/m-amin-alizadeh-60a20b1b0/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -184,6 +191,12 @@ To run the project, execute the following command:
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+👤 **Amin Alizadeh**
+
+- GitHub: [@M-AminAlizadeh](https://github.com/M-AminAlizadeh)
+- Twitter: [@AMINALI69393891](https://twitter.com/AMINALI69393891)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/m-amin-alizadeh-60a20b1b0/)
 
 Contributions, issues, and feature requests are welcome!
 
@@ -214,4 +227,3 @@ I would like to thank Microverse.
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
