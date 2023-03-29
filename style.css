@@ -719,6 +719,28 @@ nav a {
   border-radius: 8px;
 }
 
+button {
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+button:hover p {
+  color: #fff;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+button:active p {
+  color: #fff;
+}
+
 /* Project Action Text */
 
 .project-text {
