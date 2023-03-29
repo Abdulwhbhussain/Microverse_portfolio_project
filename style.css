@@ -1269,7 +1269,7 @@ textarea {
     align-self: center;
     margin-left: 8%;
     padding: 16px;
-    gap: 12px;
+    gap: 2%;
     width: 80vw;
     height: 552px;
 
@@ -1286,6 +1286,42 @@ textarea {
 
     flex: none;
     order: 0;
+    flex-grow: 0;
+  }
+
+  .snapshoot-container {
+    /* Snapshoot Portfolio */
+  
+    width: 50%;
+    height: 80%;
+    border-radius: 8px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  /* Left Block in Flex Card */
+  
+  .left-block {
+    /* Left Block */
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 50%;
+    height: 80%;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
     flex-grow: 0;
   }
 }
