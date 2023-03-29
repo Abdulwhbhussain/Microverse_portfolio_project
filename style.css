@@ -28,7 +28,7 @@
   margin: 44px auto;
 }
 
-.toolbar-name-container a {
+a {
   text-decoration: none;
 }
 
@@ -41,6 +41,42 @@
   text-align: center;
   color: var(--main-purple-color);
 }
+
+.toolbar-menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 30px;
+}
+
+nav a {
+  font-family: var(--font-family-common);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+}
+
+.toggle-hidden1 {
+  display: flex;
+}
+
+.toggle-hidden2 {
+  display: none;
+}
+
+
 
 /* Headline */
 .headline-container {
@@ -1182,7 +1218,11 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    background: red;
+  .toggle-hidden1 {
+    display: none;
+  }
+
+  .toggle-hidden2 {
+    display: flex;
   }
 }
