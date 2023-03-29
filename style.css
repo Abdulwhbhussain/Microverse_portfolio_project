@@ -1237,6 +1237,15 @@ textarea {
     top: 0;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 100px 100px 100px 100px;
+  }
+
+  .headline-desktop1 {
+    margin: 15% 20% 0 20%;
+  }
+
+  .headline-socialmedia-container {
+    margin: 0 0 0 20%;
   }
 
   .CSS-grid__card-container {
