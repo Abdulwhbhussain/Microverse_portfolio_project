@@ -1223,4 +1223,15 @@ textarea {
   .toggle-hidden2 {
     display: flex;
   }
+
+  .headline-container1 {
+    background: url(assets/header-bg-desktop.svg);
+    position: relative;
+    width: 100vw;
+    height: 721.46px;
+    left: 34.6px;
+    top: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
