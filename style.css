@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --main-purple-color: #6070ff;
   --secondary-color: #344563;
@@ -1229,7 +1233,7 @@ textarea {
     position: relative;
     width: 100vw;
     height: 721.46px;
-    left: 34.6px;
+    left: 0px;
     top: 0;
     background-size: contain;
     background-repeat: no-repeat;
