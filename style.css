@@ -1371,7 +1371,7 @@ textarea {
   }
 
   img:hover {
-    animation: imgHover 3s ease 0s 1;
+    animation: imgHover 2s ease 0s 1;
     animation-fill-mode: forwards;
   }
 
@@ -1600,7 +1600,7 @@ textarea {
     margin: 103px 24px;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
   }
 
   .black-line-container {
