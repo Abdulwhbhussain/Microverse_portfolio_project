@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@ body {
   --font-heavy-purple-color: #172b4d;
   --light-grey-color: #7a869a;
   --very-light-purple-color: #ebebff;
-  --font-family-common: "Poppins";
+  --font-family-common: 'Poppins';
 }
 
 .template-1 {
@@ -37,7 +37,7 @@ a {
 }
 
 .toolbar-name {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -45,6 +45,19 @@ a {
   text-align: center;
   color: var(--main-purple-color);
   transition: font-size 1s ease 0s, color 1s ease 0s;
+  animation: 1s pulse infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .toolbar-name:hover {
@@ -95,7 +108,7 @@ a:hover {
 /* Headline */
 .headline-container {
   background-image: url(assets/header-shapes-mobile@2x.svg);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   /* Auto layout */
 
@@ -1168,7 +1181,7 @@ ul {
 }
 
 .form-header {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -1178,7 +1191,7 @@ ul {
 }
 
 .form-description {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -1200,7 +1213,7 @@ form {
 textarea {
   border: 1px solid #cfd8dc;
   color: var(--font-heavy-purple-color);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
@@ -1221,7 +1234,7 @@ textarea {
 
 #submit-btn {
   /* border: 1px solid red; */
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
