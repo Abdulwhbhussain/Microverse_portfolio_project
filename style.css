@@ -1545,7 +1545,7 @@ textarea {
   }
 
   .form-content-container {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     margin: 103px 24px;
     display: flex;
     flex-direction: column;
