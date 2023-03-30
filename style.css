@@ -1530,4 +1530,29 @@ textarea {
   .separator-bottom {
     width: 100%;
   }
+
+  .form-container {
+    border: 1px solid transparent;
+    background: var(--main-purple-color);
+    border-radius: 100px 0 0 0;
+    background-image: url(assets/contact-form-background-desktop.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-content-container {
+    border: 3px solid blue;
+    margin: 103px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .black-line-container {
+    display: none;
+  }
 }
