@@ -44,9 +44,7 @@ a {
   letter-spacing: 0;
   text-align: center;
   color: var(--main-purple-color);
-  transition:
-    font-size 1s ease 0s,
-    color 1s ease 0s;
+  transition: font-size 1s ease 0s, color 1s ease 0s;
 }
 
 .toolbar-name:hover {
@@ -78,11 +76,12 @@ nav a {
   /* Neutrals/N600 */
 
   color: #344563;
-  transition: color 1s ease 0s;
+  transition: color 1s ease 0s, font-size 1s ease 0s;
 }
 
 a:hover {
   color: var(--main-purple-color);
+  font-size: 18px;
 }
 
 .toggle-hidden1 {
