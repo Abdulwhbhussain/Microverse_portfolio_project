@@ -44,6 +44,14 @@ a {
   letter-spacing: 0;
   text-align: center;
   color: var(--main-purple-color);
+  transition:
+    font-size 1s ease 0s,
+    color 1s ease 0s;
+}
+
+.toolbar-name:hover {
+  font-size: 20px;
+  color: var(--font-heavy-purple-color);
 }
 
 .toolbar-menu-container {
@@ -70,6 +78,11 @@ nav a {
   /* Neutrals/N600 */
 
   color: #344563;
+  transition: color 1s ease 0s;
+}
+
+a:hover {
+  color: var(--main-purple-color);
 }
 
 .toggle-hidden1 {
@@ -1264,6 +1277,26 @@ textarea {
 
   .headline-desktop1 {
     margin: 15% 20% 0 20%;
+    opacity: 1;
+    animation: animating-header 4s ease 0s 1 alternate;
+  }
+
+  @keyframes animating-header {
+    0% {
+      opacity: 0;
+    }
+
+    25% {
+      opacity: 0.25;
+    }
+
+    75% {
+      opacity: 0.75;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 
   .headline-socialmedia-container {
@@ -1336,6 +1369,25 @@ textarea {
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  img:hover {
+    animation: imgHover 3s ease 0s 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes imgHover {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(0.95);
+    }
+
+    100% {
+      transform: scale(0.9);
+    }
   }
 
   /* Left Block in Flex Card */
