@@ -97,7 +97,9 @@ My First Project at Microverse with Html and CSS to create Portfolio website to 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming Soon!
+> Here is the Link to this Live Project:
+
+> https://abdulwhbhussain.github.io/Microverse_portfolio_project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +158,9 @@ To run the project, execute the following command:
 
 ### Deployment
 
-> Coming Soon!
+> Here is the Link to this Live Project:
+
+> https://abdulwhbhussain.github.io/Microverse_portfolio_project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
