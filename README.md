@@ -180,6 +180,12 @@ To run the project, execute the following command:
 - Twitter: [@AMINALI69393891](https://twitter.com/AMINALI69393891)
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/m-amin-alizadeh-60a20b1b0/)
 
+👤 **Biftu**
+
+- GitHub: [@Bifabig](https://github.com/Bifabig)
+- Twitter: [@biftu94](https://twitter.com/biftu94)
+- LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma-3598a8126/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -201,6 +207,12 @@ To run the project, execute the following command:
 - GitHub: [@M-AminAlizadeh](https://github.com/M-AminAlizadeh)
 - Twitter: [@AMINALI69393891](https://twitter.com/AMINALI69393891)
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/m-amin-alizadeh-60a20b1b0/)
+
+👤 **Biftu**
+
+- GitHub: [@Bifabig](https://github.com/Bifabig)
+- Twitter: [@biftu94](https://twitter.com/biftu94)
+- LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma-3598a8126/)
 
 Contributions, issues, and feature requests are welcome!
 
