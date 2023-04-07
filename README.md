@@ -97,9 +97,9 @@ My First Project at Microverse with Html and CSS to create Portfolio website to 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Here is the Link to this Live Project:
+> Here is the Link to this Project's Demo in Loom Video:
 
-> https://abdulwhbhussain.github.io/Microverse_portfolio_project/
+> https://www.loom.com/share/364672594b3f44668cf1d5b7f1c2963c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
