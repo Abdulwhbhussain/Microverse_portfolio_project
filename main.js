@@ -1,6 +1,5 @@
-
-let hamBurgerElement = document.querySelector('.toolbar-menu-container');
-let overlayMenu = document.querySelector('.overlay-menu');
+const hamBurgerElement = document.querySelector('.toolbar-menu-container');
+const overlayMenu = document.querySelector('.overlay-menu');
 
 console.log(hamBurgerElement.nodeName);
 console.log(hamBurgerElement.nodeType);
@@ -10,7 +9,7 @@ console.log(overlayMenu.nodeName);
 console.log(overlayMenu.nodeType);
 console.log(overlayMenu.classList);
 
-hamBurgerElement.addEventListener('click', function() {
+hamBurgerElement.addEventListener('click', () => {
     overlayMenu.classList.remove('.hidden');
 });
 
