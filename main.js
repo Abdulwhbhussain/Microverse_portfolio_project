@@ -10,7 +10,7 @@ console.log(overlayMenu.nodeType);
 console.log(overlayMenu.classList);
 
 hamBurgerElement.addEventListener('click', () => {
- overlayMenu.classList.remove('.hidden');
+  overlayMenu.classList.remove('.hidden');
 });
 
 console.log(overlayMenu.classList);
