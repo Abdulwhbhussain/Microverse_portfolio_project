@@ -1632,27 +1632,27 @@ textarea {
 
 .overlay-menu a {
   position: relative;
-height: 24px;
-left: 2rem;
-right: 4rem;
-top: calc(20% - 24px/2);
-margin-bottom: 3rem;
-scroll-behavior: smooth;
+  height: 24px;
+  left: 2rem;
+  right: 4rem;
+  top: calc(20% - 24px / 2);
+  margin-bottom: 3rem;
+  scroll-behavior: smooth;
 
-/* Theme 1 / H3 */
+  /* Theme 1 / H3 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 3rem;
-line-height: 44px;
-/* or 138% */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 44px;
 
-display: flex;
-align-items: center;
+  /* or 138% */
 
-/* Theme 1 /  Neutrals 11 */
+  display: flex;
+  align-items: center;
 
-color: #FFFFFF;
+  /* Theme 1 /  Neutrals 11 */
+
+  color: #fff;
 }
-
