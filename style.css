@@ -1615,14 +1615,14 @@ textarea {
 .overlay-menu {
   /* Overlay */
 
-position: absolute;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 
-/* Theme 1 /  Primary Colors  2 */
+  /* Theme 1 /  Primary Colors  2 */
 
-background: #6070FF;
-mix-blend-mode: multiply;
+  background: #6070ff;
+  mix-blend-mode: multiply;
 }
