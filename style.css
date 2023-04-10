@@ -1607,3 +1607,22 @@ textarea {
     display: none;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.overlay-menu {
+  /* Overlay */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Theme 1 /  Primary Colors  2 */
+
+background: #6070FF;
+mix-blend-mode: multiply;
+}
