@@ -1620,9 +1620,39 @@ textarea {
   right: 0;
   top: 0;
   bottom: 0;
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  transition: all 1s linear;
 
   /* Theme 1 /  Primary Colors  2 */
 
   background: #6070ff;
   mix-blend-mode: multiply;
 }
+
+.overlay-menu a {
+  position: relative;
+height: 24px;
+left: 2rem;
+right: 4rem;
+top: calc(20% - 24px/2);
+margin-bottom: 3rem;
+scroll-behavior: smooth;
+
+/* Theme 1 / H3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 3rem;
+line-height: 44px;
+/* or 138% */
+
+display: flex;
+align-items: center;
+
+/* Theme 1 /  Neutrals 11 */
+
+color: #FFFFFF;
+}
+
