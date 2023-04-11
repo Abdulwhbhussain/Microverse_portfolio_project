@@ -111,7 +111,7 @@
 
             <div class="action-container">
               <button class="normal-button">
-                <p class="project-text">See Project</p>
+                <p class="project-text show-modal">See Project</p>
               </button>
             </div>
           </div>
@@ -155,7 +155,7 @@
 
             <div class="action-container">
               <button class="normal-button">
-                <p class="project-text">See Project</p>
+                <p class="project-text show-modal">See Project</p>
               </button>
             </div>
           </div>
@@ -199,7 +199,7 @@
 
             <div class="action-container">
               <button class="normal-button">
-                <p class="project-text">See Project</p>
+                <p class="project-text show-modal">See Project</p>
               </button>
             </div>
           </div>
@@ -243,12 +243,20 @@
 
             <div class="action-container">
               <button class="normal-button">
-                <p class="project-text">See Project</p>
+                <p class="project-text show-modal">See Project</p>
               </button>
             </div>
           </div>
         </div>
       </section>
+
+      <div id="overlay">
+        <div id="modal">
+          <button id="close-modal">X</button>
+        </div>
+      </div>
+
+      </div>
 
       <!-- About Myself -->
       <section id="about" class="about-myself-container">
@@ -419,5 +427,13 @@
         </div>
       </section>
     </div>
+    <div class="overlay-menu hidden">
+      <a><bold>&times;</bold></a>
+      <a href="#portfolio" style="display: block; color: white;"><b>Portfolio</b></a>
+            <a href="#about" style="display: block; color: white;"><b>About</b></a>
+            <a href="#contact" style="display: block; color: white;"><b>Contact</b></a>
+    </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>

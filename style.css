@@ -1607,3 +1607,81 @@ textarea {
     display: none;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.overlay-menu {
+  /* Overlay */
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  transition: all 1s linear;
+
+  /* Theme 1 /  Primary Colors  2 */
+
+  background: #6070ff;
+  mix-blend-mode: multiply;
+}
+
+.overlay-menu a {
+  position: relative;
+  height: 24px;
+  left: 2rem;
+  right: 4rem;
+  top: calc(12% - 24px / 2);
+  margin-bottom: 3rem;
+  scroll-behavior: smooth;
+
+  /* Theme 1 / H3 */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 44px;
+
+  /* or 138% */
+
+  display: flex;
+  align-items: center;
+
+  /* Theme 1 /  Neutrals 11 */
+
+  color: #fff;
+}
+
+.overlay-menu a:nth-child(1) {
+  left: 85%;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+#modal {
+  max-width: 80%;
+  height: 90%;
+  margin: auto;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.7rem;
+}
