@@ -24,7 +24,7 @@ const overlayWindow = document.querySelector('#overlay');
 document.querySelectorAll('.show-modal').forEach((element) => {
   element.addEventListener('click', () => {
     overlayWindow.style.display = 'block';
-      });
+  });
 });
 
 document.querySelector('#close-modal').addEventListener('click', () => {
