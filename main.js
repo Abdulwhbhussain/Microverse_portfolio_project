@@ -21,6 +21,13 @@ overlayMenu.addEventListener('click', () => {
 
 let overlayWindow = document.querySelector('#overlay');
 
-document.querySelector(".show-modal").addEventListener('click', () => {
-  overlayWindow.style.display = 'block';
+document.querySelectorAll(".show-modal").forEach((element) => {
+    element.addEventListener('click', () => {
+        overlayWindow.style.display = 'block';
+      });
+})
+
+document.querySelector("#close-modal").addEventListener('click', () => {
+    overlayWindow.style.display = 'none';
 });
+
