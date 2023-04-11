@@ -216,9 +216,9 @@ To run the project, execute the following command:
 
 👤 **Edwin**
 
-- GitHub: [@Bifabig](https://github.com/egichuhis)
-- Twitter: [@biftu94](https://twitter.com/egichuhis)
-- LinkedIn: [Biftu Girma](https://www.linkedin.com/in/edwingichuhis/)
+- GitHub: [@Edwin](https://github.com/egichuhis)
+- Twitter: [@Edwin](https://twitter.com/egichuhis)
+- LinkedIn: [Edwin](https://www.linkedin.com/in/edwingichuhis/)
 
 Contributions, issues, and feature requests are welcome!
 
