@@ -1615,7 +1615,7 @@ textarea {
 .overlay-menu {
   /* Overlay */
 
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -1635,7 +1635,7 @@ textarea {
   height: 24px;
   left: 2rem;
   right: 4rem;
-  top: calc(20% - 24px / 2);
+  top: calc(12% - 24px / 2);
   margin-bottom: 3rem;
   scroll-behavior: smooth;
 
@@ -1643,8 +1643,8 @@ textarea {
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 3rem;
+  font-weight: 300;
+  font-size: 2rem;
   line-height: 44px;
 
   /* or 138% */
@@ -1655,6 +1655,10 @@ textarea {
   /* Theme 1 /  Neutrals 11 */
 
   color: #fff;
+}
+
+.overlay-menu a:nth-child(1) {
+  left: 28rem;
 }
 
 #overlay {
