@@ -214,6 +214,12 @@ To run the project, execute the following command:
 - Twitter: [@biftu94](https://twitter.com/biftu94)
 - LinkedIn: [Biftu Girma](https://www.linkedin.com/in/biftu-girma-3598a8126/)
 
+👤 **Edwin**
+
+- GitHub: [@Bifabig](https://github.com/egichuhis)
+- Twitter: [@biftu94](https://twitter.com/egichuhis)
+- LinkedIn: [Biftu Girma](https://www.linkedin.com/in/edwingichuhis/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
