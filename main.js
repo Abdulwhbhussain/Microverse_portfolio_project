@@ -19,15 +19,14 @@ overlayMenu.addEventListener('click', () => {
   overlayMenu.classList.toggle('hidden');
 });
 
-let overlayWindow = document.querySelector('#overlay');
+const overlayWindow = document.querySelector('#overlay');
 
-document.querySelectorAll(".show-modal").forEach((element) => {
-    element.addEventListener('click', () => {
-        overlayWindow.style.display = 'block';
+document.querySelectorAll('.show-modal').forEach((element) => {
+  element.addEventListener('click', () => {
+    overlayWindow.style.display = 'block';
       });
-})
-
-document.querySelector("#close-modal").addEventListener('click', () => {
-    overlayWindow.style.display = 'none';
 });
 
+document.querySelector('#close-modal').addEventListener('click', () => {
+  overlayWindow.style.display = 'none';
+});
