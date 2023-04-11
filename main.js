@@ -18,3 +18,9 @@ console.log(overlayMenu.classList);
 overlayMenu.addEventListener('click', () => {
   overlayMenu.classList.toggle('hidden');
 });
+
+let overlayWindow = document.querySelector('#overlay');
+
+document.querySelector(".show-modal").addEventListener('click', () => {
+  overlayWindow.style.display = 'block';
+});
