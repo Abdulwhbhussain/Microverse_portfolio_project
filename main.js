@@ -9,7 +9,9 @@ overlayMenu.addEventListener('click', () => {
   overlayMenu.classList.toggle('hidden');
 });
 
-// Pop Up Window
+// Pop up window
+
+const overlayWindow = document.querySelector('#overlay');
 
 document.querySelectorAll('.show-modal').forEach((element) => {
   element.addEventListener('click', () => {
