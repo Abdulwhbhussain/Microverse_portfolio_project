@@ -48,3 +48,29 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+// Form Data in Local Storage
+
+const formDataOject = {};
+
+document.querySelectorAll('.form-input').forEach((element) => {
+  element.addEventListener('input', (e) => {
+    formDataOject[e.target.name] = e.target.value;
+    localStorage.setItem('formData', JSON.stringify(formDataOject));
+    console.log(formDataOject);
+  });
+});
+
+if(localStorage.getItem('formData')) {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+    
+  document.querySelectorAll('.form-input').forEach((element) => {
+    if(formData[element.name]) {
+      element.value = formData[element.name];
+    }
+  });
+}
+
+console.log(localStorage.getItem('formData'));
+
+console.log(document.querySelectorAll('.form-input'));
