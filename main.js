@@ -29,15 +29,15 @@ const form = document.querySelector('#form-submit');
 const email = document.querySelector('.form-email');
 const errorMessage = document.querySelector('.error-message');
 
-// email.addEventListener('input', (e) => {
-//     if (e.target.value !== e.target.value.toLowerCase()) {
-//         email.setCustomValidity('Email must be lowercase');
-//         errorMessage.innerText = 'Error: Email must be lowercase; Form is not sent.';
-//     } else {
-//         email.setCustomValidity('');
-//         errorMessage.innerText = '';
-//     }
-// });
+email.addEventListener('input', (e) => {
+    if (e.target.value !== e.target.value.toLowerCase()) {
+     email.setCustomValidity('Email must be lowercase');
+        errorMessage.innerText = 'Error: Email must be lowercase; Form is not sent.';
+    } else {
+         email.setCustomValidity('');
+        errorMessage.innerText = '';
+     }
+ });
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
