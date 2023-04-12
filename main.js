@@ -1,3 +1,5 @@
+// HamBurger Menu using JavaScript
+
 const hamBurgerElement = document.querySelector('.toolbar-menu-container');
 const overlayMenu = document.querySelector('.overlay-menu');
 
@@ -28,16 +30,6 @@ document.querySelector('#close-modal').addEventListener('click', () => {
 const form = document.querySelector('#form-submit');
 const email = document.querySelector('.form-email');
 const errorMessage = document.querySelector('.error-message');
-
-// email.addEventListener('input', (e) => {
-//     if (e.target.value !== e.target.value.toLowerCase()) {
-//         email.setCustomValidity('Email must be lowercase');
-//         errorMessage.innerText = 'Error: Email must be lowercase; Form is not sent.';
-//     } else {
-//         email.setCustomValidity('');
-//         errorMessage.innerText = '';
-//     }
-// });
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
