@@ -64,9 +64,8 @@ const formDataObject = localStorage.getItem('formData') ? JSON.parse(localStorag
 
 document.querySelectorAll('.form-input').forEach((element) => {
   element.addEventListener('input', (e) => {
-   formDataObject[e.target.name] = e.target.value;
-   localStorage.setItem('formData', JSON.stringify(formDataObject));
-            
+    formDataObject[e.target.name] = e.target.value;
+    localStorage.setItem('formData', JSON.stringify(formDataObject));        
     console.log(formDataObject);
   });
 });
