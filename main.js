@@ -51,16 +51,6 @@ form.addEventListener('submit', (e) => {
 
 // Form Data in Local Storage
 
-const formDataOject = {};
-
-document.querySelectorAll('.form-input').forEach((element) => {
-  element.addEventListener('input', (e) => {
-    formDataOject[e.target.name] = e.target.value;
-    localStorage.setItem('formData', JSON.stringify(formDataOject));
-    console.log(formDataOject);
-  });
-});
-
 if (localStorage.getItem('formData')) {
   const formData = JSON.parse(localStorage.getItem('formData'));
   document.querySelectorAll('.form-input').forEach((element) => {
@@ -69,6 +59,17 @@ if (localStorage.getItem('formData')) {
     }
   });
 }
+
+const formDataObject = localStorage.getItem('formData') ? JSON.parse(localStorage.getItem('formData')) : {};
+
+document.querySelectorAll('.form-input').forEach((element) => {
+  element.addEventListener('input', (e) => {
+   formDataObject[e.target.name] = e.target.value;
+   localStorage.setItem('formData', JSON.stringify(formDataObject));
+            
+    console.log(formDataObject);
+  });
+});
 
 console.log(localStorage.getItem('formData'));
 
