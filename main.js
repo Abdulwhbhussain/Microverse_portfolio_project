@@ -61,11 +61,10 @@ document.querySelectorAll('.form-input').forEach((element) => {
   });
 });
 
-if(localStorage.getItem('formData')) {
+if (localStorage.getItem('formData')) {
   const formData = JSON.parse(localStorage.getItem('formData'));
-    
   document.querySelectorAll('.form-input').forEach((element) => {
-    if(formData[element.name]) {
+    if (formData[element.name]) {
       element.value = formData[element.name];
     }
   });
