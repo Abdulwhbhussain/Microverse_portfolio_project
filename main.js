@@ -38,6 +38,10 @@ form.addEventListener('submit', (e) => {
   } else {
     errorMessage.innerText = '';
     form.submit();
+    localStorage.clear();
+    document.querySelectorAll('.form-input').forEach((element) => {
+      element.value = '';
+    });
   }
 });
 
