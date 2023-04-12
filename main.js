@@ -1,23 +1,17 @@
+// HamBurger Menu using JavaScript
+
 const hamBurgerElement = document.querySelector('.toolbar-menu-container');
 const overlayMenu = document.querySelector('.overlay-menu');
-
-console.log(hamBurgerElement.nodeName);
-console.log(hamBurgerElement.nodeType);
-console.log(hamBurgerElement.classList);
-
-console.log(overlayMenu.nodeName);
-console.log(overlayMenu.nodeType);
-console.log(overlayMenu.classList);
 
 hamBurgerElement.addEventListener('click', () => {
   overlayMenu.classList.toggle('hidden');
 });
 
-console.log(overlayMenu.classList);
-
 overlayMenu.addEventListener('click', () => {
   overlayMenu.classList.toggle('hidden');
 });
+
+// Pop up window
 
 const overlayWindow = document.querySelector('#overlay');
 
@@ -30,3 +24,44 @@ document.querySelectorAll('.show-modal').forEach((element) => {
 document.querySelector('#close-modal').addEventListener('click', () => {
   overlayWindow.style.display = 'none';
 });
+
+// Client side validation
+
+const form = document.querySelector('#form-submit');
+const email = document.querySelector('.form-email');
+const errorMessage = document.querySelector('.error-message');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (email.value !== email.value.toLowerCase()) {
+    errorMessage.innerText = 'Error: Email must be lowercase; Form is not sent.';
+  } else {
+    errorMessage.innerText = '';
+    form.submit();
+  }
+});
+
+// Form Data in Local Storage
+
+if (localStorage.getItem('formData')) {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+  document.querySelectorAll('.form-input').forEach((element) => {
+    if (formData[element.name]) {
+      element.value = formData[element.name];
+    }
+  });
+}
+
+const formDataObject = localStorage.getItem('formData') ? JSON.parse(localStorage.getItem('formData')) : {};
+
+document.querySelectorAll('.form-input').forEach((element) => {
+  element.addEventListener('input', (e) => {
+    formDataObject[e.target.name] = e.target.value;
+    localStorage.setItem('formData', JSON.stringify(formDataObject));
+    console.log(formDataObject);
+  });
+});
+
+console.log(localStorage.getItem('formData'));
+
+console.log(document.querySelectorAll('.form-input'));

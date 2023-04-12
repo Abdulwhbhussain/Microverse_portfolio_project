@@ -389,35 +389,40 @@
           </div>
 
           <!-- Form itself -->
-          <form action="https://formspree.io/f/xbjezrbe" method="POST">
+          <form id="form-submit" action="https://formspree.io/f/xbjezrbe" method="POST">
             <!-- Name -->
             <input
               name="user_name"
               type="text"
-              class="form-element"
+              class="form-element form-input"
               placeholder="Enter your Name"
               maxlength="30"
               required
             />
+
+            <small style="color: white; font-size: 1rem;">Note: Please Use Lower Case Letters (All) in <b>Email</b></small>
             <!-- Email -->
             <input
               name="user_email"
               type="email"
-              class="form-element"
+              class="form-element form-email form-input"
               placeholder="Enter your Email"
               required
             />
+            
             <!-- Message -->
             <textarea
               name="user_message"
               cols="10"
               rows="10"
+              class="form-input"
               placeholder="Write your Message here..."
               maxlength="500"
               required
             ></textarea>
 
-            <button type="submit" id="submit-btn">Get in touch</button>
+            <button type="submit" value="Get in Touch" id="submit-btn" style="border: 1px solid #ffffff;">Get in Touch</button>
+            <small style="color: rgb(255, 0, 0); font-size: 1.2rem;" class="error-message"></small>
           </form>
 
           <!-- line -->
