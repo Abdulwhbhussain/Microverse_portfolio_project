@@ -38,6 +38,10 @@ form.addEventListener('submit', (e) => {
   } else {
     errorMessage.innerText = '';
     form.submit();
+    localStorage.clear();
+    document.querySelectorAll('.form-input').forEach((element) => {
+      element.value = '';
+    });
   }
 });
 
@@ -58,10 +62,5 @@ document.querySelectorAll('.form-input').forEach((element) => {
   element.addEventListener('input', (e) => {
     formDataObject[e.target.name] = e.target.value;
     localStorage.setItem('formData', JSON.stringify(formDataObject));
-    console.log(formDataObject);
   });
 });
-
-console.log(localStorage.getItem('formData'));
-
-console.log(document.querySelectorAll('.form-input'));
