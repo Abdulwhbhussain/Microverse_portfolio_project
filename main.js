@@ -44,10 +44,9 @@ form.addEventListener('submit', (e) => {
     
   if (email.value !== email.value.toLowerCase()) {
     errorMessage.innerText = 'Error: Email must be lowercase; Form is not sent.';
-    } 
+  } 
   else {
     errorMessage.innerText = '';
     form.submit();
-    }
+  }
 });
-
