@@ -61,6 +61,4 @@ document.querySelectorAll('.form-input').forEach((element) => {
   });
 });
 
-console.log(localStorage.getItem('formData'));
-
 console.log(document.querySelectorAll('.form-input'));
