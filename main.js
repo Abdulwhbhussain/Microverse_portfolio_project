@@ -22,3 +22,32 @@ document.querySelectorAll('.show-modal').forEach((element) => {
 document.querySelector('#close-modal').addEventListener('click', () => {
   overlayWindow.style.display = 'none';
 });
+
+// Client side validation
+
+const form = document.querySelector('#form-submit');
+const email = document.querySelector('.form-email');
+const errorMessage = document.querySelector('.error-message');
+
+// email.addEventListener('input', (e) => {
+//     if (e.target.value !== e.target.value.toLowerCase()) {
+//         email.setCustomValidity('Email must be lowercase');
+//         errorMessage.innerText = 'Error: Email must be lowercase; Form is not sent.';
+//     } else {
+//         email.setCustomValidity('');
+//         errorMessage.innerText = '';
+//     }
+// });
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+    
+  if (email.value !== email.value.toLowerCase()) {
+    errorMessage.innerText = 'Error: Email must be lowercase; Form is not sent.';
+    } 
+  else {
+    errorMessage.innerText = '';
+    form.submit();
+    }
+});
+
