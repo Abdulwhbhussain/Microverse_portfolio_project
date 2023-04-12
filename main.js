@@ -60,5 +60,3 @@ document.querySelectorAll('.form-input').forEach((element) => {
     localStorage.setItem('formData', JSON.stringify(formDataObject));
   });
 });
-
-console.log(document.querySelectorAll('.form-input'));
