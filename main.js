@@ -11,6 +11,43 @@ overlayMenu.addEventListener('click', () => {
   overlayMenu.classList.toggle('hidden');
 });
 
+// Array of Projects (Objects) to be displayed
+
+const projects = [
+    {
+        name: 'Tonic',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        image: 'assets/Snapshoot-Portfolio-1.svg',
+        technologies: ['HTML', 'CSS', 'Javascript'],
+        liveLink: 'https://abdulwhbhussain.github.io/Microverse_portfolio_project/',
+        sourceLink: 'https://github.com/Abdulwhbhussain/Microverse_portfolio_project',
+    },
+    {
+        name: 'Multi-Post Stories',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        image: 'assets/Snapshoot-Portfolio-2.svg',
+        technologies: ['HTML', 'CSS', 'Javascript'],
+        liveLink: 'https://abdulwhbhussain.github.io/Microverse_portfolio_project/',
+        sourceLink: 'https://github.com/Abdulwhbhussain/Microverse_portfolio_project',
+    },
+    {
+        name: 'Tonic',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        image: 'assets/Snapshoot-Portfolio-3.svg',
+        technologies: ['HTML', 'CSS', 'Javascript'],
+        liveLink: 'https://abdulwhbhussain.github.io/Microverse_portfolio_project/',
+        sourceLink: 'https://github.com/Abdulwhbhussain/Microverse_portfolio_project',
+    },
+    {
+        name: 'Multi-Post Stories',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        image: 'assets/Snapshoot-Portfolio-4.svg',
+        technologies: ['HTML', 'CSS', 'Javascript'],
+        liveLink: 'https://abdulwhbhussain.github.io/Microverse_portfolio_project/',
+        sourceLink: 'https://github.com/Abdulwhbhussain/Microverse_portfolio_project',
+    },
+];
+
 // Pop up window
 
 const overlayWindow = document.querySelector('#overlay');
