@@ -50,15 +50,15 @@ const projects = [
 
 const portfolioSection = document.querySelector('#portfolio');
 console.log(portfolioSection);
-for(let i = 0; i < projects.length; i++) {
-    const project = projects[i];
-    const projectElement = document.createElement('div');
-    if(i === 0 || i === 2) {
-        projectElement.classList.add('Card-works');
-    } else {
-        projectElement.classList.add('flip-card');
-    }
-    projectElement.innerHTML = `
+for (let i = 0; i < projects.length; i++) {
+  const project = projects[i];
+  const projectElement = document.createElement('div');
+  if (i === 0 || i === 2) {
+    projectElement.classList.add('Card-works');
+  } else {
+    projectElement.classList.add('flip-card');
+  }
+  projectElement.innerHTML = `
     <img
             class="snapshoot-container"
             src= ${project.image}
