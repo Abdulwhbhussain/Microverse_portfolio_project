@@ -50,7 +50,7 @@ const projects = [
 
 const portfolioSection = document.querySelector('#portfolio');
 console.log(portfolioSection);
-for (let i = 0; i < projects.length; i=i+1) {
+for (let i = 0; i < projects.length; i+=1) {
   const project = projects[i];
   const projectElement = document.createElement('div');
   if (i === 0 || i === 2) {
