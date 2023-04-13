@@ -48,6 +48,61 @@ const projects = [
     },
 ];
 
+const portfolioSection = document.querySelector('#portfolio');
+console.log(portfolioSection);
+for(let i = 0; i < projects.length; i++) {
+    const project = projects[i];
+    const projectElement = document.createElement('div');
+    if(i === 0 || i === 2) {
+        projectElement.classList.add('Card-works');
+    } else {
+        projectElement.classList.add('flip-card');
+    }
+    projectElement.innerHTML = `
+    <img
+            class="snapshoot-container"
+            src= ${project.image}
+            alt="Snapshoot Portfolio"
+          />
+
+          <div class="left-block">
+            <div class="primary-text">
+              <h2 class="project-title">${project.name}</h2>
+              <div class="frame-2">
+                <div class="client">
+                  <p class="client-text">CANOPY</p>
+                </div>
+
+                <img class="container" src="assets/Counter.png" alt="Counter" />
+
+                <p class="role role-text">BackEnd Dev</p>
+
+                <img class="container" src="assets/Counter.png" alt="Counter" />
+
+                <p class="year-label year-text">2015</p>
+              </div>
+            </div>
+
+            <p class="text-after-Frame2">
+              ${project.description}
+            </p>
+
+            <ul class="tags">
+              <li class="tag-html"><p class="tag-text-html">${project.technologies[0]}</p></li>
+              <li class="tag-css"><p class="tag-text-css">${project.technologies[1]}</p></li>
+              <li class="tag-js"><p class="tag-text-js">${project.technologies[2]}</p></li>
+            </ul>
+
+            <div class="action-container">
+              <button class="normal-button">
+                <p class="project-text show-modal">See Project</p>
+              </button>
+            </div>
+          </div>
+    `;
+    portfolioSection.appendChild(projectElement);
+}
+
 // Pop up window
 
 const overlayWindow = document.querySelector('#overlay');
