@@ -103,7 +103,7 @@ for (let i = 0; i < projects.length; i += 1) {
   portfolioSection.appendChild(projectElement);
 }
 
-// Pop up window work section 
+// Pop up window work section
 
 const overlayWindow = document.querySelector('#overlay');
 
@@ -117,7 +117,7 @@ document.querySelector('#close-modal').addEventListener('click', () => {
   overlayWindow.style.display = 'none';
 });
 
-// Client side validation using JavaScript 
+// Client side validation using JavaScript
 
 const form = document.querySelector('#form-submit');
 const email = document.querySelector('.form-email');
