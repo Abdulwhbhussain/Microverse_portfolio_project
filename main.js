@@ -104,7 +104,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
 // Pop up window work section
 
-for (let i=0; i < projects.length; i += 1) {
+for (let i = 0; i < projects.length; i += 1) {
   const overlay = document.createElement('div');
   overlay.className = `overlay-${i}`;
   overlay.innerHTML = `
@@ -178,13 +178,12 @@ for (let i=0; i < projects.length; i += 1) {
   document.querySelector('.template-1').appendChild(overlay);
 }
 
-for (let i = 0; i < projects.length; i += 1) {
-  
-  const overlayy = document.querySelector(`.overlay-${i}`)
+for (let i = 0; i < projects.length; i += 1) {  
+  const overlayy = document.querySelector(`.overlay-${i}`);
 
-    document.querySelector(`#click-id-${i}`).addEventListener('click', () => {
-        overlayy.style.display = 'block';
-      }); 
+  document.querySelector(`#click-id-${i}`).addEventListener('click', () => {
+    overlayy.style.display = 'block';
+  }); 
 
 }
 
