@@ -1504,13 +1504,6 @@ textarea {
     flex-grow: 0;
   }
 
-  .overlay-image-container {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-    margin-bottom: 2%;
-  }
-
   .about-myself-container {
     /* About My Self */
 
