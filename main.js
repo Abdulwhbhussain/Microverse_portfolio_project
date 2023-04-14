@@ -114,7 +114,7 @@ for (let i = 0; i < projects.length; i += 1) {
           <div class="">
             <div style="display: flex; justify-content: space-between;">
               <h2 class="project-title">${projects[i].name}</h2>
-            <button class="close-modal-${i}">&times;</button>
+            <button class="close-modal-${i} cross">&times;</button>
             </div>
             
             <div class="frame-2">
@@ -147,28 +147,30 @@ for (let i = 0; i < projects.length; i += 1) {
             alt="Snapshoot Portfolio-2"
           />
 
-          <div style="display: flex; justify-content: space-between;">
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
             <div style="width: 50%; padding-right: 2%; display: inline-block;">
-              <p class="">
+              <p class="" style="margin-bottom: 0.5rem; font-size: 1.1rem;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim architecto in impedit ab fugit, laboriosam voluptatem, repellendus dolore molestias harum reprehenderit iste maxime soluta.
               </p>
     
-              <p class="">
+              <p class="" style="font-size: 1.1rem;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis temporibus saepe nulla, suscipit veniam eveniet nihil delectus, rem assumenda voluptatum commodi tempora facilis accusantium?
               </p>
             </div>
             
   
             <div style="display: inline;">
-              <ul class="tags" style="margin-bottom: 1rem;">
+              <ul class="tags" style="margin-bottom: 2rem;">
                 <li class="tag-html"><p class="tag-text-html">HTML</p></li>
                 <li class="tag-css"><p class="tag-text-css">CSS</p></li>
                 <li class="tag-js"><p class="tag-text-js">JavaScript</p></li>
               </ul>
     
-              <button class="normal-button" >See Live</button>
+              <div style="display: flex; ">
+              <a href=${projects[i].liveLink}> <button class="normal-button" >See Live <img class="liveIcon" src="assets/liveIcon.png" alt="Live Icon" /></button> </a>
     
-                <button class="normal-button">See Source</button>
+               <a href=${projects[i].sourceLink}> <button class="normal-button">See Source <img class="liveIcon" src="assets/sourceIcon.png" alt="Source Icon" /></button> </a>
+              </div>
             </div>
           </div>
 

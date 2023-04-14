@@ -1693,4 +1693,14 @@ textarea {
   width: 100%;
   height: 60%;
   object-fit: cover;
+  margin-bottom: 2%;
+}
+
+.cross {
+  border: none;
+  font-size: 2rem;
+}
+
+.liveIcon:hover {
+  color: white;
 }
