@@ -153,9 +153,7 @@ for (let i = 0; i < projects.length; i += 1) {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim architecto in impedit ab fugit, laboriosam voluptatem, repellendus dolore molestias harum reprehenderit iste maxime soluta.
               </p>
     
-              <p class="second-paragraph" style="font-size: 1.1rem; color: #344563;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis temporibus saepe nulla, suscipit veniam eveniet nihil delectus, rem assumenda voluptatum commodi tempora facilis accusantium?
-              </p>
+              
             </div>
             
   

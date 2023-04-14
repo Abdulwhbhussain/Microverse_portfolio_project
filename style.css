@@ -745,6 +745,10 @@ button:hover p {
   color: #fff;
 }
 
+button:hover span {
+  color: #fff;
+}
+
 button:active {
   background-color: #2230d2;
   color: #fff;
