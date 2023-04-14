@@ -49,7 +49,6 @@ const projects = [
 ];
 
 const portfolioSection = document.querySelector('#portfolio');
-console.log(portfolioSection);
 for (let i = 0; i < projects.length; i += 1) {
   const project = projects[i];
   const projectElement = document.createElement('div');
@@ -94,8 +93,8 @@ for (let i = 0; i < projects.length; i += 1) {
             </ul>
 
             <div class="action-container">
-              <button class="normal-button">
-                <p class="project-text show-modal">See Project</p>
+              <button id="click-id-${i}" class="normal-button">
+                <p class="project-text">See Project</p>
               </button>
             </div>
           </div>
@@ -105,17 +104,95 @@ for (let i = 0; i < projects.length; i += 1) {
 
 // Pop up window work section
 
-const overlayWindow = document.querySelector('#overlay');
+for (let i=0; i < projects.length; i += 1) {
+  const overlay = document.createElement('div');
+  overlay.className = `overlay-${i}`;
+  overlay.innerHTML = `
+  <div class="modal" style="padding: 2%;">
+          
 
-document.querySelectorAll('.show-modal').forEach((element) => {
-  element.addEventListener('click', () => {
-    overlayWindow.style.display = 'block';
+          <div class="">
+            <div style="display: flex; justify-content: space-between;">
+              <h2 class="project-title">${projects[i].name}</h2>
+            <button class="close-modal-${i}">&times;</button>
+            </div>
+            
+            <div class="frame-2">
+              <div class="client">
+                <p class="client-text">CANOPY</p>
+              </div>
+
+              <img class="container" src="assets/Counter.png" alt="Counter" />
+
+              <p class="role role-text">BackEnd Dev</p>
+
+              <img class="container" src="assets/Counter.png" alt="Counter" />
+
+              <p class="year-label year-text">2015</p>
+            </div>
+
+            
+
+            
+
+          
+
+
+
+        </div>
+
+        <img
+            class="overlay-image-container"
+            src=${projects[i].image}
+            alt="Snapshoot Portfolio-2"
+          />
+
+          <div style="display: flex; justify-content: space-between;">
+            <div style="width: 50%; padding-right: 2%; display: inline-block;">
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim architecto in impedit ab fugit, laboriosam voluptatem, repellendus dolore molestias harum reprehenderit iste maxime soluta.
+              </p>
+    
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis temporibus saepe nulla, suscipit veniam eveniet nihil delectus, rem assumenda voluptatum commodi tempora facilis accusantium?
+              </p>
+            </div>
+            
+  
+            <div style="display: inline;">
+              <ul class="tags" style="margin-bottom: 1rem;">
+                <li class="tag-html"><p class="tag-text-html">HTML</p></li>
+                <li class="tag-css"><p class="tag-text-css">CSS</p></li>
+                <li class="tag-js"><p class="tag-text-js">JavaScript</p></li>
+              </ul>
+    
+              <button class="normal-button" >See Live</button>
+    
+                <button class="normal-button">See Source</button>
+            </div>
+          </div>
+
+      </div>
+
+  `;
+  document.querySelector('.template-1').appendChild(overlay);
+}
+
+for (let i = 0; i < projects.length; i += 1) {
+  
+  const overlayy = document.querySelector(`.overlay-${i}`)
+
+    document.querySelector(`#click-id-${i}`).addEventListener('click', () => {
+        overlayy.style.display = 'block';
+      }); 
+
+}
+
+for (let i = 0; i < projects.length; i += 1) {
+  document.querySelector(`.close-modal-${i}`).addEventListener('click', () => {
+    document.querySelector(`.overlay-${i}`).style.display = 'none';
   });
-});
-
-document.querySelector('#close-modal').addEventListener('click', () => {
-  overlayWindow.style.display = 'none';
-});
+}
 
 // Client side validation using JavaScript
 
