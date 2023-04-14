@@ -1447,6 +1447,22 @@ textarea {
     flex-grow: 0;
   }
 
+  .primary-text {
+  padding-left: 5%;
+  }
+
+  .text-after-Frame2 {
+    padding-left: 5%;
+  }
+
+  .tags {
+    padding-left: 5%;
+  }
+
+  .action-container {
+    padding-left: 5%;
+  }
+
   .flip-card {
     /* Card Works */
 
