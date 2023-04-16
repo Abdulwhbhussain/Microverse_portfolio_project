@@ -68,7 +68,7 @@ My First Project at Microverse with Html and CSS to create Portfolio website to 
 
 ### 1- Html
 ### 2- CSS
-### 3- Linters
+### 2- Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
