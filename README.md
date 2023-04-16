@@ -78,6 +78,7 @@ My First Project at Microverse with Html and CSS to create Portfolio website to 
   <ul>
     <li><a>Html</a></li>
     <li><a>Css</a></li>
+    <li><a>Javascript</a></li>
   </ul>
 </details>
 
