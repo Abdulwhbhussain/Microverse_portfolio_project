@@ -62,13 +62,13 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Microverse Portfolio Project <a name="about-project"></a>
 
-My First Project at Microverse with Html and CSS to create Portfolio website to Understand Software Engineering and Web Development.
+My First Project at Microverse with Html and CSS and Javascript to create Portfolio website to Understand Software Engineering and Web Development.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### 1- Html
 ### 2- CSS
-### 3- Linters
+### 2- Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -78,6 +78,7 @@ My First Project at Microverse with Html and CSS to create Portfolio website to 
   <ul>
     <li><a>Html</a></li>
     <li><a>Css</a></li>
+    <li><a>Javascript</a></li>
   </ul>
 </details>
 
